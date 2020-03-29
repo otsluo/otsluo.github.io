@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+/*------body------*/
+body {
+	background-color: #DBDBDB;
+	/*border:1px solid red;*/
+	background-image: url("../img/background-1.png");
+	/*设置背景图片*/
+	background-size: 100% 100%;
+	/*定义背景自动适应大小宽，高*/
+	background-attachment: fixed;
+	/*随着页面滚动轴背景图片静止不动。*/
+	margin: 0 auto;
+	/*居中浏览器中，加入margin:0 auto就不能加入float浮动样式,不知道是不是*/
+	width: 1200px;
+
+	/*宽度*/
+
+
+}
+
+/*------header-头部------*/
+header {
+
+	background-color: #f3f3f3;
+	height: 70px;
+	width: auto;
+	margin: 0 auto;
+	background-size: 100% 100%;
+
+	/*居中浏览器中，加入margin:0 auto就不能加入float浮动样式,不知道是不是*/
+
+}
+
+.header_div {
+	float: left;
+	width: 240px;
+	height: 70px;
+	background-color:#3D3D3D;
+	/*
+	background-color: rgba(21, 21, 21, 0.5);
+	*/
+}
+
+/*------body------*/
+img.logo {
+	float: left;
+	background-image: url("../img/ots-logo.png");
+
+	margin: 10px 10px 10px 30px;
+	/*外边距  上,  右,  下,  左*/
+
+}
+
+header div p {
+	color: #FFFFFF;
+	float: left;
+
+	margin: 15px 0px 5px 20px;
+	/*外边距  上,  右,  下,  左*/
+	font-size: 17px;
+
+
+}
+
+/*------nav-导航栏------*/
+nav {
+	float: left;
+	background-color: #3D3D3D;
+	height: 70px;
+	width: 950px;
+	padding-left: 10px;
+
+}
+
+nav a {
+	float: left;
+	padding: 25px 20px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	background: url(../images/templatemo_menu_divider.png) center right no-repeat;
+	color: #fff;
+	font-family: Tahoma;
+	outline: none;
+
+}
+
+nav a:hover {
+	color: #2a5f00;
+}
+
+/*------aside-侧边栏------*/
+aside {
+	background-color: #f3f3f3;
+	width: 240px;
+	height: 770px;
+	float: left;
+	
+}
+
+aside div.user {
+	background-color: #E0E0E0;
+	height: 240px;
+	width: 240px;
+	margin-top: 0px;
+	
+
+}
+/*用户头像*/
+aside div div.circle {
+	width: 110px;
+	height: 110px;
+	background-color: #F2FFCD;
+	
+	border-radius: 50%;
+	/*设置圆角*/
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;	
+	/*设置圆角,为了兼容性,上面2个都是*/
+	position: relative;
+	/*相对定位*/
+	/*position:absolute;
+	绝对定位
+	*/
+	top: 16%;
+	left: 27%;
+
+
+}
+aside div div.username{
+	position: relative;
+	/*相对定位*/
+	/*position:absolute;
+	绝对定位
+	*/
+	top: 19%;
+	left: 27%;
+	width: 110px;
+	height: 30px;
+	background-color: rgba(21, 21, 21, 0);
+	
+}
+aside div.ul{
+	width: 240px;
+	height: 480px;
+	height: ;
+	background-color: #e0e0e0;
+	float: left;
+}
+aside div.footer{
+	width: 240px;
+	height: 50px ;
+	background-color: #3D3D3D;
+	float: left;
+	
+}
+
+aside div div.footer{
+	background-color: rgba(21, 21, 21, 0);
+	display:inline;
+	color: #FFFFFF;
+
+	width: 50px;
+	height: 50px ;
+	float: left;
+	text-align:center;
+	line-height: 50px;
+	
+	margin-left: 16px;
+	margin-right: 12px;
+
+}
+
+/*------article-独立内容------*/
+/*
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+*/
+article {
+	background-color: #F3F3F3;
+	width: 920px;
+	/*宽度,如果要加右边栏,可以去掉*/
+	height: 100%;
+	float: left;
+	padding: 20px;
+}
+
+article div.banner{
+	background-color: #25B3F0;
+	height: 288px;
+	background-image: url(../img/banner-1.jpg);
+	background-size: 920px 288px;	
+}
+
+article div.main{
+	margin-top: 20px;
+	width: auto;
+	height:422px;
+	background-color: #C9C9C9;
+}
+
+article div.article_header {
+	width: 900px;
+	height: 35px;
+	padding-left: 20px;	
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 35px;
+	color: #000000;
+	background-color: #e8e8e8;
+	float: left;
+}
+
+
+article div.article_main {
+	padding: 15px 15px 0px 15px;
+	/*外边距  上,  右,  下,  左*/
+	float: left;
+
+	
+}
+article div img.article_img{
+	background-color: #25B3F0;
+	height: 150px;
+	
+	background-image: url(../img/banner-1.jpg);
+	background-size: 190px 150px;
+	/*设置图片按大小缩放,会出现扭曲*/
+	float: left;
+	
+}
+
+article div div.article_title{
+	background-color: #E8E8E8;	
+	float: left;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 40px;
+	padding-left: 15px;
+	width: 685px;
+}
+
+article div div.article_content{
+	background-color: #E8E8E8;
+	float: left;
+	padding-left: 15px;
+	line-height: 30px;
+	width: 685px;
+	height: 70px;
+	
+	
+}
+
+article div div.article_More{
+	background-color: #E8E8E8;
+	float: left;
+	padding-left: 15px;
+	width: 685px;
+	height: 40px;
+	line-height: 40px;
+	
+
+	
+}
+
+article div div.article_footer{
+	background-color: #E8E8E8;
+	float: left;	
+	width: 890px;
+	height: 35px;	
+	text-align: center;
+	line-height: 35px;
+	margin: 10px 15px 0px 15px;
+	/*外边距  上,  右,  下,  左*/
+}
+
+article p {
+	width: 100%;
+	height: 50px;
+
+	background-color: #9FF654;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------footer-尾部页脚------*/
+footer {
+	float: left;
+	background-color: #343434;
+	color: #FFFFFF;
+	height: 46px;
+	width: 1200px;
+}
+
+/*------通用------*/
+/*------居中------*/
+*.center {
+	text-align: center;
+}
+/*------分割线------*/
+*.Separator{
+	line-height: 1px;
+	border-bottom: 1px solid #aaaaaa;
+
+}
