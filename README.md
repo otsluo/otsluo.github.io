@@ -1,11 +1,16 @@
-![logo](./images/logo.png "可选标题")
-<h1 align="center">抖音像塑特效、快手必扬特效制作教程文档<br />
+<p align="center">
+	<img width="100px" src="./images/logo.png" align="center" alt="logo" />
+	<img width="100px" src="https://github.com/otsluo/otsluo.github.io/raw/main/images/logo.png" align="center" alt="logo" />
+	<h1 align="center">抖音像塑特效、快手必扬特效制作教程文档</h1>
+	<p align="center">这是抖音特效和快手特效的制作教程</p>
+	<a href="链接地址" target="_blank"><img  align=center src="https://img.shields.io/badge/标签（平台或者用途）-消息（内容）-%231677ff?style=flat"/></a>
+	<a href="链接地址" target="_blank"><img  align=center src="https://img.shields.io/badge/标签（平台或者用途）-消息（内容）-%231677ff?style=flat"/></a>
+</p>
 
-
-[TOC](目录)
-[TOC](## 11)
-[TOC](##11)
-[TOC](#11)
+[1](目录)
+[2](## 11)
+[3](##11)
+[4](#11)
 
 ## 11
 * bug处理方法
