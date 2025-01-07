@@ -1,0 +1,63 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center; /* 水平居中内容 */
+    align-items: center; /* 垂直居中内容 */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* logo 左对齐样式 */
+.logo img {
+    display: inline-block; /* 使图片显示为块级元素以进行定位 */
+    float: left; /* logo 左对齐 */
+    margin-right: 20px; /* 与导航栏之间的间距 */
+}
+
+/* 导航栏样式 */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* 导航栏右对齐 */
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 15px; /* 菜单项之间的间距 */
+}
+
+.navbar a, .navbar button {
+    text-decoration: none; /* 去掉默认的下划线 */
+    color: #0056b3; /* 设置按钮颜色 */
+    padding: 10px 20px; /* 按钮填充 */
+    border-radius: 25px; /* 圆角处理 */
+}
+
+/* h1 标题样式 */
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* 简介和版权信息样式 */
+.introduction {
+    margin-bottom: 40px;
+}
+.copyright {
+    color: #999;
+    font-size: 14px;
+}

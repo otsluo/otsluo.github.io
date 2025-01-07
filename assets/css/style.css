@@ -1,0 +1,57 @@
+/* 引入一些基本的 CSS 规则 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* 浅灰色背景 */
+}
+
+.header {
+    background-color: #0077cc; /* 蓝色背景 */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.about, .projects {
+    max-width: 80%;
+    margin: auto; /* 居中 */
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    display: block;
+    margin: 30px auto; /* 垂直居中 */
+}
+
+.project-item {
+    max-width: 250px; /* 设置图片宽度 */
+    height: auto;
+    border-radius: 8px; /* 圆角半径为16像素，以便与其他元素风格一致 */
+    cursor: pointer;
+    display: block; /* 确保元素可以适应父容器 */
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* 如果需要，可以添加更多的视觉效果 */
+.project-item:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* 鼠标悬停时增加阴影 */
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #7ac5cd; /* 浅蓝色分割线 */
+}
