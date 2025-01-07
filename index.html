@@ -3,105 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>设计师风格个人主页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9; /* 粉色调背景 */
-        }
-        .navbar {
-            background-color: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            overflow: hidden;
-            display: flex;
-            justify-content: flex-end;
-            padding: 10px;
-        }
-        .navbar a {
-            float: left;
-            display: block;
-            color: #333;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-            backdrop-filter: blur(5px);
-            border-radius: 5px;
-            background-color: rgba(255, 255, 255, 0.3);
-        }
-        .navbar a:hover {
-            background-color: rgba(255, 166, 34, 0.7); /* 橙色边框 */
-            backdrop-filter: blur(5px);
-            color: #f9f9f9;
-        }
-
-        @media screen and (min-width: 768px) {
-            .container {
-                display: flex;
-            }
-            .sidebar {
-                width: 25%;
-                background-color: rgba(255, 255, 255, 0.1);
-                backdrop-filter: blur(10px);
-                padding: 15px;
-                box-shadow: 0 0 5px rgba(0,0,0,0.1);
-            }
-            .content {
-                flex-grow: 1;
-                background-color: rgba(255, 255, 255, 0.1);
-                backdrop-filter: blur(10px);
-                padding: 15px;
-                box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            }
-        }
-
-        footer {
-            text-align: center;
-            background-color: rgba(243, 242, 246, 0.1);
-            backdrop-filter: blur(5px);
-            color: #333;
-            padding: 10px 0;
-        }
-    </style>
+    <title>小南郡的引导页</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="#home">主页</a>
-        <a href="#about">关于我</a>
-        <a href="#blog">博客</a>
-        <a href="#projects">项目</a>
-        <a href="#contact">联系方式</a>
-    </div>
-    <div class="container">
-        <div class="sidebar">
-            <h3>社交媒体</h3>
-            <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-            </ul>
-            <h3>热门文章</h3>
-            <ul>
-                <li><a href="#">文章1</a></li>
-                <li><a href="#">文章2</a></li>
-                <li><a href="#">文章3</a></li>
-            </ul>
-            <h3>分类标签</h3>
-            <div>
-                <button>设计</button>
-                <button>技术</button>
-                <button>创意</button>
-            </div>
+
+    <!-- 导航 
+    <header class="header"></header>
+    -->
+    
+    <!-- 自我介绍 -->
+    <section class="about">
+        <img src="./assets/images/logo.png" alt="小南郡Logo" class="logo">
+        <h2>小南郡主页</h2>
+        <p>干啥啥不行,吃饭第一名的UP。</p>
+         <!-- <a href="#projects" class="btn">查看我的项目</a> -->
+    </section>
+
+    <!-- 项目部分 -->
+    <section id="projects">
+        <div class="project-grid">
+            <figure>
+                <img src="./assets/images/logo.png" alt="项目图片1" class="project-item">
+                <figcaption>项目描述1</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/logo.png" alt="项目图片2" class="project-item">
+                <figcaption>项目描述2</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/logo.png" alt="项目图片3" class="project-item">
+                <figcaption>项目描述3</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/logo.png" alt="项目图片4" class="project-item">
+                <figcaption>项目描述4</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/logo.png" alt="项目图片5" class="project-item">
+                <figcaption>项目描述5</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/logo.png" alt="项目图片6" class="project-item">
+                <figcaption>项目描述6</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/logo.png" alt="项目图片7" class="project-item">
+                <figcaption>项目描述7</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/images/logo.png" alt="项目图片8" class="project-item">
+                <figcaption>项目描述8</figcaption>
+            </figure>
         </div>
-        <div class="content">
-            <h1 style="color: #f2e8d6;">欢迎来到我的个人主页</h1>
-            <img src="your-profile-pic.jpg" alt="设计师照片" style="width:200px; height:auto;">
-            <p style="color: rgba(90, 67, 67);">我是一个拥有多年设计经验的专业人士。这里展示了我的作品和博客文章。</p>
-        </div>
-    </div>
-    <footer>
-        <p>© 2023 设计师风格个人主页. 版权所有.</p>
+    </section>
+
+    <!-- 页脚部分 -->
+    <footer id="footer">
+        <p class="footer-copyright">© 2020-2025 Theme by-小南郡 All rights reserved。</p>
     </footer>
+    
 </body>
 </html>
